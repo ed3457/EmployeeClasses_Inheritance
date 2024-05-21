@@ -13,3 +13,32 @@ Employee::Employee(string n, string i)
 	setName(n);
 
 }
+
+void Employee::setID(string i)
+{
+	id = i;
+
+}
+
+string Employee::getID()
+{
+	return id;
+
+}
+
+void Employee::setName(string n)
+{
+	name = n;
+}
+
+string Employee::getName()
+{
+	return name;
+}
+
+void Employee::printInfo()
+{
+	cout << "Employee ID:" << getID() << endl;
+	cout << "Employee Name:" << getName() << endl;
+
+}
