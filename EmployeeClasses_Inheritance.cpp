@@ -5,9 +5,13 @@
 #include "Manager.h"
 int main()
 {
-	Employee e1;
+	Employee e1("James","1234");
 
-	Manager m1;
+	Manager m1("Mary","231123","Finance");
+
+	e1.printInfo();
+
+	m1.printInfo();
 
 	
 }

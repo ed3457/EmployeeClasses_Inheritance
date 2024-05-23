@@ -13,6 +13,8 @@ public:
 	Manager();
 	Manager(string n, string i, string bu);
 
+	// override 
+	void printInfo();
 
 
 };

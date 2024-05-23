@@ -22,3 +22,10 @@ Manager::Manager(string n, string i, string bu):Employee(n,i)
 {
 	setBU(bu);
 }
+
+void Manager::printInfo()
+{
+	Employee::printInfo();
+
+	cout << "Bu: " << getBU() << endl;
+}
