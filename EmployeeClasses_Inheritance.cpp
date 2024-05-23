@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
-
+#include "Manager.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	Employee e1;
+
+	Manager m1;
+
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
